@@ -1,11 +1,13 @@
 import React from 'react'
+import './Pizza.css'
 
 // prop pizza
 
-const Pizza = () => {
+const Pizza = (props) => {
     return (
+
         <div>
-            {}
+        Pizza {props.pizza.name}
         </div>
     )
 }
